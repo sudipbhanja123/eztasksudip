@@ -1,0 +1,43 @@
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px);
+    background-color: #112949;
+
+
+    text-align: left;
+    font: normal normal normal 24px/29px Exo 2.0;
+    letter-spacing: 0px;
+
+    opacity: 1;
+    border-radius: 10px;
+}
+
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.service-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #3CC3F2;
+}
+
+.service-card p {
+    font-size: 1em;
+    text-align: left;
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
